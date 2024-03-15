@@ -1,0 +1,69 @@
+body{
+    background-color: #333;
+    color: #fff;
+}
+
+a{
+    color: #fff;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+}
+
+h1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+
+.items {
+    list-style-type: none; 
+}
+
+.item {
+    width: calc(33.333% - 10px); 
+    margin-bottom: 15px; 
+}
+
+.card {
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+}
+
+.card-img img {
+    max-width: 100%;
+    height: auto;
+}
+
+.card {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.card-buy {
+    display: flex;
+    justify-content: space-between; 
+}
+
+.red, .blue {
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.red {
+    background-color: #7a4b48; 
+}
+
+.blue {
+    background-color: #2196F3; 
+}
