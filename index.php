@@ -6,7 +6,7 @@
 ?>
 
 	<div class="span-9">		
-		<h1>Naše produkty</h1>
+		<h2>Naše produkty</h2>
 		<?php include "partials/sidebar.php"; ?>
 		<h2>Výpredaj!</h2>
 		<p>

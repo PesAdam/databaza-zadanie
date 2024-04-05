@@ -23,5 +23,8 @@
 				}  
 				?>
 			</ul>
+			
+				<div class="obrazok">
+					<img class="obrazok" src="https://www.polygrafcentrum.sk/wp-content/uploads/2017/02/kniha_vazba_V8_tlac_polygraficke_centrum-470x353.jpg"/>
+				</div>
         </div>
-	
