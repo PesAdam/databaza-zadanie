@@ -11,9 +11,11 @@
 			<ul class="items-sidebar">
 				<?php 
 					foreach ($kategorie as $kat){
+					$kategoria_encoded =  urldecode($kat->kategoria);
+					$kategoria_pretty = str_replace(' ', '-', $kategoria_encoded); 
 				?>
-					
-					<li class="itemik sidebar"><a href="produkty.php?p_n=1&k1=<?php echo $kat->kategoria ?>"><?php echo $kat->kategoria ?></a>
+					<li class="itemik sidebar"><a href="/produkty/<?php echo $kategoria_pretty ?>"><?php echo $kat->kategoria ?></a></li>
+
 						
 					</li>
 				<?php 

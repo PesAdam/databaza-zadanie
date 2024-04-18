@@ -1,4 +1,9 @@
 <?php
+
+include('functions.php');
+
+define('BASE_URL', 'http://localhost:8008');
+define('APP_PATH', realpath(__DIR__ . '/../'));
 $servername = "46.229.230.163";
 $dbname = "hz024701db";
 $username = "hz024700";
