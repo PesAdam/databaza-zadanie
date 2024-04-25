@@ -30,7 +30,9 @@
 
 	include "partials/header.php";
 ?>
+<title>Kniha | <?= $u_p_slug ?></title>
 <main class="main-page">
+	<h1 class="nadpis">Kniha: <?= $u_p_slug ?></h1>
 	<div class="product">
 		<div class="product-path">
 			<ul>
@@ -62,6 +64,6 @@
 		</div>
 	</div>
 <?php
-	include "partials/footer.php";
+	// include "partials/footer.php";
 
 ?>
